@@ -17,7 +17,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../includes/utils.h"
+#include "utils.h"
 
 void empty_buffer()
 {
