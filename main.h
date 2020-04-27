@@ -18,8 +18,8 @@
 #ifndef __MAIN_MORSE_H__
 #define __MAIN_MORSE_H__
 
-#include "../includes/utils.h"
-#include "../includes/morse.h"
+#include "utils.h"
+#include "morse.h"
 
 /*
  * \brief Print header
