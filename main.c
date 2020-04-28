@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	while(loop)
 	{
 		menu();
-		string = input("Type a number [0-6]", MEDIUM_LENGTH);
+		string = input("[+] Type a number [0-6]", MEDIUM_LENGTH);
 		user_input = atoi(string);
 		printf("\n");
 
