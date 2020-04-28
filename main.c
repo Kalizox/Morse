@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 				loop = 0;
 				break;
 			case 1:
-				string = input("[+] characters \\#*% are not handled", STRING_LENTGH);
+				string = input("[+] Characters \\#*% are not handled", STRING_LENTGH);
 				string = alph_to_morse(string);
 				printf("\n[+] %s\n\n", string);
 				break;
