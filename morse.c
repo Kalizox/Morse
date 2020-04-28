@@ -189,7 +189,7 @@ char *alph_to_morse(char *p_pUser_string)
 	char *pMorse_string = NULL;
 	int i = 0, alph_pos = 0, numeric_flag = 0, symbol_flag = 0;
 
-	pMorse_string = (char*) malloc(sizeof(char)*(strlen(p_pUser_string)*7));
+	pMorse_string = (char*) malloc(sizeof(char)*(strlen(p_pUser_string)*SPE_LENGTH));
 
 	for(i=0; i<strlen(p_pUser_string); i++)
 		p_pUser_string[i] = (char) tolower(p_pUser_string[i]);
